@@ -1,0 +1,5 @@
+print("Hello World")
+print(1111)
+print("Lets Play", 2323)
+print("Hello \n")
+print("Welcome To My 1st Project")
