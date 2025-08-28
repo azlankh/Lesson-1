@@ -1,17 +1,8 @@
-coding = input("Whats the missing alphabet in 'codin_'? ")
-a = 'g' 
-if coding == a:
-    print("Correct")
-if not coding == a:
-    print("Incorrect")
-    print("The correct answer is 'g'")
-mouse = input("Whats the missing alphabet in 'mou_e'? ")
-b = 's'
-if mouse == b:
-    print("Correct")
-if not mouse == b:
-    print("Incorrect")
-    print("The correct answer is 's'")
-    print("Well done for trying!")
-
-
+char = input("Enter a character = ")
+str = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+str1= ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+if (char in str or char in str1):
+    print("It is an Alphabet")
+else:
+    print("It is not an Alphabet")
+    
