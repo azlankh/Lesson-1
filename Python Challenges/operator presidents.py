@@ -1,0 +1,5 @@
+a = int(input("Enter a Number: "))
+b = int(input("Enter Another Number: "))
+c = int(input("Enter One Last Number: "))
+ans = (a/b)*(a*b)*(c/a)+(a+b+c)-(c-b)
+print("The Answer Is:", ans)
