@@ -6,7 +6,7 @@ tree_5 =int(input("Enter the the 5th height of the tree:"))
 
 sum = tree_1 + tree_2 + tree_3 + tree_4 + tree_5
 
-print("The Sum of all the height of the trees are:",sum)
+print("The Sum of all height of the trees are:",sum)
 
 avarage = sum/5
 
